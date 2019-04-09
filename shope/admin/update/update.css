@@ -1,0 +1,382 @@
+.update_card{
+    padding-top: 8vh;
+    min-height: 61vh;
+}
+
+.update_card h2{
+
+    font-size: 40px;
+    color: #475498;
+    text-align: center;
+}
+
+
+
+.update_card  form {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+    }
+
+
+    
+
+
+
+
+
+    .update_card .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+
+
+
+
+
+
+
+    .update_card .inputfile + label {
+
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 1.25em;
+        font-weight: 700;
+        width: 200px;
+        height: 45px;
+        padding: 0% 5px;
+        margin:20px 0 0 10px;
+        border: 2px solid #475498;
+        background-color: #475498;
+        color: white;
+        display: flex;
+        
+
+      
+       
+    }
+    
+    .update_card  .inputfile:focus + label,
+    .inputfile + label:hover {
+       
+        background-color: white;
+        color: #475498;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .update_card .admininput{
+         display: flex;
+         flex-direction: column;
+    
+    }
+    
+    .update_card  form  .input{
+    
+    width: 200px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #475498;
+    padding: 0% 5px;
+    margin:20px 0 0 10px;
+    
+    
+    }
+    
+    .update_card  form  .submit{
+    
+        width: 200px;
+    height: 40px;
+    background-color: #475498;
+    color: white;
+    text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px 0 0 10px;
+    }
+
+
+
+
+    .del .submit2{
+
+        width: 40px;
+        height: 40px;
+        color: #475498;
+        font-size: 40px;
+        background-color: white;
+    }
+
+.del{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+} 
+
+
+
+
+
+
+
+    
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.main_more{
+    padding-top: 8vh;
+}
+
+.component_more {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+	justify-content: center;
+	/* align-items: stretch; */
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.component_more  .pSection1 {
+    padding-top:10vh; 
+    margin:0px auto;
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.component_more  .pSection2 {
+    width: 90vw;
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+}
+
+.component_more  .pPhoto {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    background-image: url(../../assets/images/mobile/s9.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.component_more  .pInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.component_more   #tbody1 tr{
+    
+	display: flex;
+	
+    width: 100%;
+	
+	
+	
+	
+	}
+
+
+.component_more   #tbody1  th{
+	display: flex;
+	/* justify-content: flex-start; */
+    align-items: center;
+ 
+
+    margin: 10px;
+	width: 40%;
+	text-align:left;
+}
+
+
+.component_more    #tbody1   td{
+
+display: flex;
+/* justify-content: flex-start; */
+align-items: center;
+flex-wrap: wrap;
+
+margin: 10px;
+width: 60%;
+text-align:left;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.component_more  .table .thead-dark th {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+	border-color: #475498;
+    background-color: #475498;
+	font-weight: bold; 
+	color:white;
+	height: 40px;
+	width: 90vw;
+	padding-left:10px; 
+	
+	
+}
+
+.component_more  .pPrice {
+    color:#475498;
+    font-size:28px;
+    font-weight:600;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.component_more   .parent{
+    
+	display: flex;
+	justify-content: flex-start;
+    align-items: flex-start;
+	
+	
+	
+	
+	}
+
+
+.component_more   .parent th{
+	display: flex;
+	
+align-items: center;
+flex-wrap: wrap;
+
+margin: 10px;
+width: 30%;
+text-align:left;
+}
+
+
+.component_more    .parent td{
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: wrap;
+
+margin: 10px;
+width: 60%;
+
+
+
+
+}
+
+
+
+
+
+
+
+	
+
+
+@media (max-width:900px){
+	.component_more   .pSection1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .component_more  .pSection2 {
+        width: 100%;
+    }
+    .component_more  .pPhoto {
+        width: 90%;
+        height: 80vmin;
+    }
+    .component_more  .pInfo h2 {
+        padding: 20px;
+        text-align: center;
+    }
+    .component_more  .pInfo {
+        width: 90%;
+	}
+	
+
+
+	.component_more   #tbody1 tr{
+    
+		display: flex;
+		
+		width: 90vw;
+		
+		
+		
+		
+		}
+
+
+		.component_more  .table .thead-dark th{
+
+			width: 95vw;
+		}
+	
+}

@@ -1,0 +1,239 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.main_more{
+    padding-top: 8vh;
+}
+
+.component_more {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+	justify-content: center;
+	/* align-items: stretch; */
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.component_more  .pSection1 {
+    padding-top:10vh; 
+    margin:0px auto;
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.component_more  .pSection2 {
+    width: 90vw;
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+}
+
+.component_more  .pPhoto {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    background-image: url(../../assets/images/mobile/s9.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.component_more  .pInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.component_more   #tbody1 tr{
+    
+	display: flex;
+	
+    width: 100%;
+	
+	
+	
+	
+	}
+
+
+.component_more   #tbody1  th{
+	display: flex;
+	/* justify-content: flex-start; */
+    align-items: center;
+ 
+
+    margin: 10px;
+	width: 40%;
+	text-align:left;
+}
+
+
+.component_more    #tbody1   td{
+
+display: flex;
+/* justify-content: flex-start; */
+align-items: center;
+flex-wrap: wrap;
+
+margin: 10px;
+width: 60%;
+text-align:left;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.component_more  .table .thead-dark th {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+	border-color: #475498;
+    background-color: #475498;
+	font-weight: bold; 
+	color:white;
+	height: 40px;
+	width: 90vw;
+	padding-left:10px; 
+	
+	
+}
+
+.component_more  .pPrice {
+    color:#475498;
+    font-size:28px;
+    font-weight:600;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.component_more   .parent{
+    
+	display: flex;
+	justify-content: flex-start;
+    align-items: flex-start;
+	
+	
+	
+	
+	}
+
+
+.component_more   .parent th{
+	display: flex;
+	
+align-items: center;
+flex-wrap: wrap;
+
+margin: 10px;
+width: 30%;
+text-align:left;
+}
+
+
+.component_more    .parent td{
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: wrap;
+
+margin: 10px;
+width: 60%;
+
+
+
+
+}
+
+
+
+
+
+
+
+	
+
+
+@media (max-width:900px){
+	.component_more   .pSection1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .component_more  .pSection2 {
+        width: 100%;
+    }
+    .component_more  .pPhoto {
+        width: 90%;
+        height: 80vmin;
+    }
+    .component_more  .pInfo h2 {
+        padding: 20px;
+        text-align: center;
+    }
+    .component_more  .pInfo {
+        width: 90%;
+	}
+	
+
+
+	.component_more   #tbody1 tr{
+    
+		display: flex;
+		
+		width: 90vw;
+		
+		
+		
+		
+		}
+
+
+		.component_more  .table .thead-dark th{
+
+			width: 95vw;
+		}
+	
+}

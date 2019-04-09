@@ -1,0 +1,116 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content_footer {
+
+
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #475498;
+    
+    
+}
+
+.content_footer  .logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+
+.content_footer  .toTheTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+
+.content_footer  .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+
+.content_footer  table {
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content_footer  .table td, .table th {
+    padding: 0px;
+    border-top: 0px;
+}
+
+.content_footer  .soc {
+    width: 20px;
+}
+
+.content_footer  .socA{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content_footer  .socIcon {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    height: auto;
+}
+
+.content_footer  a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.content_footer .toTheTop button{
+    width: 100px;
+    height: 30px;
+    background-color: #5663a8;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .content_footer {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .content_footer  .logo {
+        justify-content: space-evenly;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .content_footer  .toTheTop {
+        width: 100%;
+        margin: 0 0 2vh 0;
+    }
+
+    .content_footer  .contacts {
+        justify-content: center;
+        width: 100%;
+    }
+}
